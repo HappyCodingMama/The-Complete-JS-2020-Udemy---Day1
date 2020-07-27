@@ -335,29 +335,33 @@ Hint: Loop over the array, and in each iteration store the current sum in a vari
 8. Log to the console which family paid the highest tips on average
 */
 
-function avgTips(tips) {
-    var sum = 0;
-    for (var i = 0; i < tips.length; i++) {
-        sum = sum + tips[i];
-    }
+// function avgTips(tips) {
+//     var sum = 0;
+//     for (var i = 0; i < tips.length; i++) {
+//         sum = sum + tips[i];
+//     }
 
-    return sum / tips.length;
-}
+//     return sum / tips.length;
+// }
 
 
-mark.calTips();
-john.calTips();
+// mark.calTips();
+// john.calTips();
 
-john.average = avgTips(john.tips);
-mark.average = avgTips(mark.tips);
+// john.average = avgTips(john.tips);
+// mark.average = avgTips(mark.tips);
 
-console.log(john);
-console.log(mark);
+// console.log(john);
+// console.log(mark);
 
-if (john.average < mark.average) {
-    console.log("John's family paid higher tips: $" + john.average);
-} else if (john.average > mark.average) {
-    console.log("Mark's family paid higher tips: $" + mark.average);
-} else {
-    console.log('They paid the same tips.');
-}
+// if (john.average < mark.average) {
+//     console.log("John's family paid higher tips: $" + john.average);
+// } else if (john.average > mark.average) {
+//     console.log("Mark's family paid higher tips: $" + mark.average);
+// } else {
+//     console.log('They paid the same tips.');
+// }
+
+
+// console.log(this);
+
